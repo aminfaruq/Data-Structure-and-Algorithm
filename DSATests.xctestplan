@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "14B5E176-5BFA-4BBF-9E85-D77847633835",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "performanceAntipatternCheckerEnabled" : true,
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Data Structure And Algorithms.xcodeproj",
+        "identifier" : "832F4AB72FA4AC090087545D",
+        "name" : "DSATests"
+      }
+    }
+  ],
+  "version" : 1
+}
