@@ -25,7 +25,7 @@ final class Challenge10Tests: XCTestCase {
             }
         }
         
-        let letters = input.lowercased().filter({ $0 >= "a" && $0 <= "z"})
+        let letters = input.lowercased().filter({ $0.isLetter })
         consonantCount = letters.count - vowelCount
         
         return "\(vowelCount) vowels and \(consonantCount) consonants"
